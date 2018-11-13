@@ -2,16 +2,18 @@
 /* * {
 	box-sizing: border-box;
 } */
+
 body {
+    background-image: url("../../background.PNG");
     margin: 0px;
     margin-right: auto;
     margin-left:  auto;
     max-width: 960px;
-    /* padding-right: 10px;
+        /* padding-right: 10px;
     padding-left:  10px; */
     /* width: 960px; */
-    background-color: lightblue;
-    /* background-image: url("/assets/images/background.PNG"); */
+    /* background-color: lightblue; */
+    /* background: url("/assets/images/background.PNG"); */
 }
 
 body {
