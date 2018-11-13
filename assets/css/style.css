@@ -1,0 +1,166 @@
+
+/* * {
+	box-sizing: border-box;
+} */
+
+body {
+    background-image: url("../../background.PNG");
+    margin: 0px;
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 960px;
+        /* padding-right: 10px;
+    padding-left:  10px; */
+    /* width: 960px; */
+    /* background-color: lightblue; */
+    /* background: url("/assets/images/background.PNG"); */
+}
+
+body {
+    color: #777777;
+	font-family: 'font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+	line-height: 1.6;
+	/* margin: 0; */
+	/* min-height: 100vh; */
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#border {
+    border-bottom: 4px solid #cccccc;
+    background-color: #ffffff;
+}
+
+
+h2,
+h3,
+a {
+    color: #ffffff;
+
+	/* color: #34495e; */
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.logo {
+    background-color: #4aaaa5;
+	margin: 0;
+	/* font-size: 1.45em; */
+}
+
+.main-nav {
+    margin-top: 5px;
+    color: #34495e;
+}
+
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	/* text-transform: uppercase; */
+	text-align: center;
+	display: block;
+}
+
+#photo {
+    float: left;
+    margin-right: 10px;
+    margin-left: auto;
+    /* padding: 10px; */
+}
+
+.main-nav a {
+    border-right: 1px solid #34495e;
+	color: #34495e;
+	/* font-size: .99em; */
+}
+
+.main-nav a:hover {
+	color: #718daa;
+}
+
+
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #cccccc;
+    background-color: #ffffff;
+    border-bottom: solid 1px;
+	/* -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	/* -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75); */
+	/* box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75); */
+	/* -webkit-border-radius: 5px; */
+	/* -moz-border-radius: 5px; */ */
+	/* border-radius: 5px; */
+}
+
+#group {
+    justify-content: space-around;
+}
+
+#img {
+    float: left;
+}
+
+#img2 {
+    float: left;
+}
+
+/* #img3 {
+    float: left;
+}
+
+#img4 {
+    float: left;
+} */ 
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+        display: flex;
+    }
+    
+
+	.header {
+		flex-direction: column;
+        align-items: center;
+    	/* header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px; */
+	}
+	
+
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}
+
+/* ================================= 
+  Figuring out this footer thing
+==================================== */
+
+footer {
+    padding: 2em;
+    color: white;
+    margin: 2px;
+  }
