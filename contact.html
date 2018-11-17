@@ -1,69 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>About Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="../Basic-Portfolio/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../Basic-Portfolio/assets/css/style.css    " />
 </head>
-</head>
-<body>
-        <body>
-                <header class="header">
-                    <h1 class="logo"><a href="#">Michael Wilson</a></h1>
-                    <ul class="main-nav">
-                        <li><a href="../../classwork/Basic-Portfolio/index.html">About</a></li>
-                        <li><a href="../../classwork/Basic-Portfolio/portfolio.html">Portfolio</a></li>
-                        <li><a href="../../classwork/Basic-Portfolio/contact.html">Contact</a></li>
-             
-                    </ul>
-                </header>
-                <div id="border">
-                        <h1>Contact</h1>
-                    </div>
-            
-<div>
-    
-    <div class="container">
-        <div class="row body">
-                <form action="/action_page.php" method="get">
 
-            <ul style="list-style-type:none">
-              
-              <li>
-                <p class="left">
-                  <label for="name">Name</label>
-                </p>
-                  <input type="text" name="name" placeholder="John Smith" size="132"/>
-                </p>
-              </li>
-              
-              <li>
-                <p>
-                  <label for="email">Email <span class="req"></span></label>
-                </p>
-                  <input type="email" name="email" placeholder="john.smith@gmail.com" size="132"/>
-                </p>
-              </li>        
-              <li><div class="divider"></div></li>
-              <li>
-              <p>
-                <label for="Message">Message</label>
-              </p>
-                <textarea cols="133" rows="10" name="Message" ></textarea>
-              </li>
-              
-              <li>
-                <input class="btn btn-submit" type="submit" value="Submit"/>
-              </li>
-              
-            </ul>
-          </form>  
+<body>
+    <header class="header">
+        <h1 id="logo">Michael Wilson</h1>
+        <ul class="main-nav">
+            <li><a href="../../classwork/Basic-Portfolio/index.html">About</a></li>
+            <li><a href="../../classwork/Basic-Portfolio/portfolio.html">Portfolio</a></li>
+            <li><a href="../../classwork/Basic-Portfolio/contact.html">Contact</a></li>
+
+        </ul>
+    </header>
+    <div class="border">
+        <section class="main-pics">
+            <h2 id="title">Contact</h2>
+            <hr>
+            <div id="contentform">
+                <!-- <form action="/action_page.php" method="get"> -->
+                <form>
+                    <ul style="list-style-type:none">
+
+                        <li>
+                            <p class="left">
+                                <label for="name">Name</label>
+                            </p>
+                            <input type="text" name="name" id="name" placeholder="John Smith" size="129" />
+
+                        </li>
+
+                        <li>
+                            <p>
+                                <label for="email">Email<span class="req"></span></label>
+                            </p>
+                            <input type="email" name="email" id="email" placeholder="john.smith@gmail.com" size="129" />
+
+                        </li>
+                        <li>
+                            <div class="divider"></div>
+                        </li>
+                        <li>
+                            <p>
+                                <label for="Message">Message</label>
+                            </p>
+                            <!-- <input type="message" name="message" id="message"/> -->
+                            <textarea cols="130" rows="10" name="Message"></textarea>
+                        </li>
+
+                        <li>
+                            <button class="button" onclick="alert('This is just a test!')">Submit</button>
+                            <!-- <button type="button" onclick="alert('This is just a test!')">Submit</button> -->
+
+                            <!-- <input class="btn btn-submit" type="submit" value="Submit" /> -->
+                        </li>
+
+                    </ul>
+                </form>
+            </div>
+        </section>
+    </div>
+    <!-- <div footer="footer" style="position:relative; width:100%;"> -->
+    <footer>
+        <div>Copywrite ©
         </div>
-      </div>
-    </section>
-</div>  
-    
+    </footer>
+
 </body>
+
 </html>
